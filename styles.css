@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "logoFont";
+    src: url(fonts/distracted_musician/Schrift.woff);
+  }
+
 :root, body {
     height: 100%;
 }
@@ -16,6 +21,7 @@ body {
     background-position: left;
     min-width: 30%;
     height: 100%;
+    justify-content: space-around;
 }
 
 .contentSection {
@@ -28,4 +34,32 @@ body {
     background-color: lightgray;
     box-shadow: 2px;
 }
+
+.logo {
+    height: 10rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: logoFont;
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1 {
+    font-family: "logoFont";
+    text-align: center;
+    line-height: 4rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 80em) {
+    .logo h1 {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+
+    .logo {
+        height: 100%;
+    }
+  }
 

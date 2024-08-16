@@ -42,6 +42,7 @@ body {
     font-family: logoFont;
     display: flex;
     justify-content: center;
+    margin-top:20vh;
 }
 
 .logo h1 {
@@ -52,6 +53,12 @@ body {
     font-size: 1.5rem;
 }
 
+.credit {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: auto;
+}
+
 @media (max-width: 80em) {
     .logo h1 {
         writing-mode: vertical-rl;
@@ -60,6 +67,16 @@ body {
 
     .logo {
         height: 100%;
+        margin-top: 0;
+    }
+
+    .logoSection {
+        background-color: rgba(0, 0, 0, 0.55);
+    }
+
+    .credit {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.55);
     }
   }
 

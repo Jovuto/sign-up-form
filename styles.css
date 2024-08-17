@@ -27,6 +27,7 @@ body {
 .contentSection {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .formContent {
@@ -57,6 +58,18 @@ body {
     text-align: center;
     font-family: sans-serif;
     margin-top: auto;
+}
+
+.desc {
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    font-family: sans-serif;
+    line-height: 3rem;
+}
+
+.desc h2 {
+    margin-left: 4rem;
+    margin-top: 15vh;
 }
 
 @media (max-width: 80em) {

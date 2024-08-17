@@ -34,6 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 0 5em 5em -5em;
+    z-index: 1;
 }
 
 .formContent .heading {
@@ -121,6 +122,33 @@ body {
 
 h2 {
     margin-left: 4rem;
+}
+
+.buttonArea {
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+}
+
+.buttonArea input {
+    margin-left: 4rem;
+    margin-top: 5vh;
+    padding: 0.2em 2em;
+    background-color: rgb(182, 26, 164);
+    color: white;
+    border: solid black;
+    border-radius: 1em;
+    font-size: 2em;
+    box-shadow: 0 0 0.1em black;
+    cursor: pointer;
+}
+
+.buttonArea p {
+    font-family: sans-serif;
+    margin-left: 4rem;
+}
+
+.buttonArea p a {
+    color: rgb(182, 26, 164);
 }
 
 @media (max-width: 80em) {
